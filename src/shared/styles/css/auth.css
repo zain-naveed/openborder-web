@@ -1,0 +1,118 @@
+form.signin-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fffaed;
+}
+
+input.signin-input {
+  border: none;
+  border-bottom: 2px solid grey;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  background: transparent;
+}
+
+label {
+  opacity: 0.8;
+  width: 85%;
+}
+
+.btn.btn-auth {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn.btn-auth:hover {
+  color: white;
+}
+
+.btn.btn-verify {
+  width: 100%;
+}
+
+.container.auth-container {
+  width: 40%;
+}
+
+label.forget-pwd {
+  font-size: 12px;
+  color: #4d5050;
+}
+
+.links {
+  text-decoration: none;
+  color: inherit;
+}
+
+.links:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.otp-paragraph {
+  padding-top: 8%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  justify-content: center;
+}
+
+.otp-email {
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #716351;
+}
+
+.otp-input {
+  width: 20%;
+  height: 70px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 2px;
+  background: #82756547;
+  margin: 0 5px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 50px;
+  outline: none;
+}
+
+.otp-div {
+  margin-left: 10%;
+}
+
+.enter-mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  padding: 2%;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid black;
+  background: none;
+}
+
+.mail-input {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  .container.auth-container {
+    width: 80%;
+  }
+}

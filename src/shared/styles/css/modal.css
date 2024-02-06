@@ -1,0 +1,143 @@
+.sch-modal {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.btn-modal {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.btn-modal:hover {
+  background-color: black;
+  color: white;
+}
+
+.modal-title {
+  color: black;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e9e2cf;
+  border-bottom: 1px solid #aa9e8f;
+}
+
+.modal-body {
+  background: #e9e2cf;
+  color: black;
+}
+
+.modal-footer {
+  background: #e9e2cf;
+}
+
+.form-check-input:checked {
+  background-color: #000000;
+  border-color: #000000;
+  outline: none;
+}
+
+.form-check-input:focus {
+  outline: none;
+}
+
+.modal-b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.check-w {
+  width: 100% !important;
+}
+
+.check-m {
+  margin-right: 10%;
+}
+
+.name-div {
+  margin-top: 6%;
+  display: grid;
+  width: 98%;
+  align-items: center;
+}
+
+.or {
+  margin-top: 3%;
+}
+
+.ipt-s {
+  background-color: #d7cdb8;
+  border: 2px solid #707070;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.ipt-active {
+  background-color: #887864;
+  border: 2px solid transparent;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.mr-body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.mr-foot {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-yes {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  width: 35%;
+}
+
+.btn-yes:hover {
+  color: white;
+}
+
+.btn-no:hover {
+  color: white;
+}
+
+.btn-no {
+  padding: 10px;
+  background-color: #887965;
+  color: white;
+  width: 35%;
+}
+
+.modal-content {
+  margin-top: 30%;
+}
+
+.md-content{
+  width: 80% !important;
+}
+
+.md-body{
+  text-align: center; 
+  justify-content: center;
+}
+
+.md-p{
+  color: #887965;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 700px) {
+  .modal-content {
+    margin-top: 50%;
+  }
+}

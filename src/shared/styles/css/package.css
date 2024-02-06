@@ -1,0 +1,49 @@
+.pack {
+  border-bottom: 2px solid #ae9c84;
+  width: 35%;
+  margin-top: 2%;
+}
+
+.pack-2 {
+  border-bottom: 2px solid #ae9c84;
+  width: 85%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.am-div {
+  margin-top: 2%;
+  margin-bottom: 20%;
+}
+
+.ul-pack {
+  list-style-type: none;
+  padding: 0 !important;
+}
+
+.li-pack {
+  float: left;
+}
+
+.dropdown-toggle {
+  background: #b0a79c82;
+  border-radius: 3px;
+}
+
+.ipt-pack {
+  background-color: #b0a79c82;
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+.btn-pack {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 501px) {
+  .am-div{
+    display: flex;
+  }
+}
+

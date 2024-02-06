@@ -1,0 +1,46 @@
+// @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:wght@200&family=Mulish&family=Poppins:wght@600&family=Raleway:wght@200&family=Roboto:wght@300&family=Rubik:wght@300;400;500;600&display=swap');
+
+// $inter-slab: 'Inter', serif;   
+// $open-sans: 'Inter', sans-serif;
+
+.questionContainer {
+  margin: 0px 20px;
+}
+.label {
+  font-size: 25px;
+  font-weight: 400;
+}
+.button {
+  padding: 15px 50px;
+  font-weight: 700;
+  border-radius: 0px;
+  border: 2px solid black;
+  background: transparent;
+}
+.button:hover {
+  background: #333333;
+  color: white;
+}
+.optionContainer {
+  margin: 20px 0px;
+}
+
+// .lineContainer {
+//   margin: 50px 0px;
+// }
+
+.footerButtonContainer {
+  background-color: #fffaec;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+.immigrationHistoryContainer {
+  background-color: #f1efec;
+  border: 1px solid black;
+  padding: 5px 5px;
+  display: inline-block;
+}
+.summarylabelStyles {
+  font-weight: 700;
+  font-size: 16px;
+}

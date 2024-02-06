@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:wght@200&family=Mulish&family=Poppins:wght@600&family=Raleway:wght@200&family=Roboto:wght@300&family=Rubik:wght@300;400;500;600&display=swap');
+
+$inter-slab: 'Inter', serif;   
+$open-sans: 'Inter', sans-serif;
+
+.container {
+  margin: -100px 0px 0px 100px;
+  img {
+    height: 280px;
+    width: 280px;
+    object-fit: contain;
+  }
+}
+
+.flex {
+  display: flex;
+  div {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: $inter-slab;
+  }
+}
+
+.flexImg {
+  display: flex;
+  flex: 0.4;
+}
+
+.flexNavItems {
+  margin-left: 60px;
+  display: flex;
+  flex: 0.6;
+}
